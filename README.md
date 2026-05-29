@@ -58,18 +58,6 @@ Text Summarization Using REST API is a Flask-based web application that provides
 
 ## Project Structure
 
-```bash id="8drt2x"
-Text-Summarization-REST-API/
-│
-├── static/
-├── templates/
-├── routes/
-├── models/
-├── app.py
-├── requirements.txt
-├── README.md
-└── config.py
-```
 
 ---
 
@@ -77,19 +65,17 @@ Text-Summarization-REST-API/
 
 ### 1. Clone the Repository
 
-```bash id="4gcfgr"
 git clone https://github.com/your-username/Text-Summarization-REST-API.git
 ```
 
 ### 2. Navigate to Project Folder
 
-```bash id="x0kxmu"
+
 cd Text-Summarization-REST-API
 ```
 
 ### 3. Create Virtual Environment
 
-```bash id="pj7x2v"
 python -m venv venv
 ```
 
@@ -97,27 +83,15 @@ python -m venv venv
 
 #### Windows
 
-```bash id="e7k4bp"
 venv\Scripts\activate
 ```
 
-#### Mac/Linux
-
-```bash id="h75i4o"
-source venv/bin/activate
-```
 
 ### 5. Install Dependencies
 
-```bash id="c45jow"
-pip install -r requirements.txt
-```
-
 ### 6. Run the Application
 
-```bash id="wkrvrl"
 python app.py
-```
 
 ---
 
